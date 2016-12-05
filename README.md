@@ -1,5 +1,5 @@
 # project_07
-Responcive, crossbrowsing with some jQuery actions
+Responsive, crossbrowsing with some jQuery actions
 ***
 ###### Задача 1 (обязательно): 
 - Сверстайте фрагмент сайта 1 в 1 с макетом, находящийся в файле test_tz.jpg.
