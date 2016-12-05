@@ -1,0 +1,149 @@
+/*  --------ОБЩЕЕ----------- */
+body {
+    width: 1200px;
+    margin: auto;
+}
+/*  ---------ОБЩЕЕ конец----- */
+/*  ---------ХЭДЭР----------- */
+body h1 {
+    color: #41454E;
+    font-size: 50px;
+    text-align: center;
+}
+.header {
+    margin-bottom: 10px;
+    border-top: 3px solid #B3B3B3;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+.header a {
+    text-decoration: underline;
+    padding-right: 10px;
+    color: #3D464B;
+}
+/*  ---------ХЭДЭР конец----- */
+/*  ---------ЛЕВЫЙ БЛОК------ */
+/*  ------ФОТО с ТЕКСТОМ----- */
+.text-bg-img-block {
+    background: url(img/01.jpg);
+    background-size: cover;
+    width: 790px;
+    height: 527px;
+    position: relative;
+}
+.text-bg-img-block h4 {
+    border-bottom: 3px solid grey;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-bg-img-block-div {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 7px;
+    margin: 0;
+    color: white;
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(64, 69, 75, 0.63) 32%, rgba(64, 69, 75, 0.69) 35%, rgba(64, 69, 75, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(32%, rgba(64, 69, 75, 0.63)), color-stop(35%, rgba(64, 69, 75, 0.69)), color-stop(100%, rgba(64, 69, 75, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(64, 69, 75, 0.63) 32%, rgba(64, 69, 75, 0.69) 35%, rgba(64, 69, 75, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(64, 69, 75, 0.63) 32%, rgba(64, 69, 75, 0.69) 35%, rgba(64, 69, 75, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(64, 69, 75, 0.63) 32%, rgba(64, 69, 75, 0.69) 35%, rgba(64, 69, 75, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(64, 69, 75, 0.63) 32%, rgba(64, 69, 75, 0.69) 35%, rgba(64, 69, 75, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#40454b', GradientType=0);
+}
+.text-bg-img-block-div p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.left-time-orange {
+    color: orange;
+}
+/*  ----ФОТО с ТЕКСТОМ конец--- */
+/*  -------ЛЕВЫЕ НОВОСТИ ------ */
+.left-news-block {
+    padding-top: 15px;
+    display: table;
+    border-top: 1px solid grey;
+    width: 100%
+}
+.left-news-block:nth-child(2) {
+    border-top: none;
+}
+.left-news-block img {
+    padding-bottom: 10px;
+    float: left;
+    padding-right: 10px;
+}
+.row .left-time {
+    color: grey;
+}
+.left-news-title {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.left-news-block p {
+    display: inline-block;
+}
+/*  -----ЛЕВЫЕ НОВОСТИ конец- */
+/*  -----ЛЕВЫЙ БЛОК конец---- */
+/*  -----ПРАВЫЙ БЛОК -------- */
+.right-title {
+    border-bottom: 3px solid #989898;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+/*  -----ПРАВЫЕ НОВОСТИ ----- */
+.right-news-block {
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    padding-top: 4px;
+}
+.right-time {
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    display: table-cell;
+    padding-right: 6px;
+}
+.right-news-block p {
+    position: relative;
+    display: table-cell;
+}
+.text-bg-blue {
+    background-color: #0089CF;
+    color: white;
+    padding: 3px;
+}
+.text-bg-green {
+    background-color: #2A972E;
+    color: white;
+    padding: 3px;
+}
+.text-bg-brown {
+    background-color: #840F18;
+    color: white;
+    padding: 3px;
+}
+/*  ---ПРАВЫЙ БЛОК конец ---- */
+/*  ---ПРАВЫЙ БЛОК конец ---- */
+/*  ---КНОПКИ ---- */
+.buttons {
+display: table;
+margin: auto;
+}
+#up,#next7 {
+  background-color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  color:grey;
+  font-weight: bold;
+}
+#up {
+  width: 35px;
+}
+/*  ---КНОПКИ конец ---- */
+/*  -------КОНЕЦ конец ------ */
